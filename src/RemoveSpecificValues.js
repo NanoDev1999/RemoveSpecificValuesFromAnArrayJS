@@ -11,7 +11,7 @@ function removeSpecificValuesFromArray(array, valueToRemove) {
     return array;
 }
 
-var array = [1, 2];
+var array = [1, 2, 3, 2, 4, 2, 5, 2, 111, 22, 2, 2, 2, 2];
 var valueToRemove = 2;
 console.log("Input Array: " + array);
 console.log("Value to Remove: " + valueToRemove);
